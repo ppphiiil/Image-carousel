@@ -1,0 +1,79 @@
+  /**
+         * ================================= CSS Reset 
+         **/
+        *::before,
+        *::after,
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700;900&display=swap');
+
+        :root {
+            font-size: 62.5%;
+            font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+        }
+        /* ================================= Reset End */
+
+        .slider {
+            /* display */
+            width: 80vw;
+            height: 100%;
+
+            /* position */
+            position: relative;
+            margin: 0 auto;
+            margin-top: 100px;
+
+            overflow: hidden;
+        }
+
+        .slider-image-container {
+            /* position */
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+
+        .slider-img {
+            /* display */
+            display: block;
+
+            /* position */
+            width: 80vw;
+
+            transition: transform 1s ease-in-out;
+        }
+
+        .nav {
+            /* display */
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            height: 100%;
+            width: 100%;
+
+            /* position */
+            position: absolute;
+            top: 0;
+        }
+
+        .nav button:focus,
+        .nav button:hover {
+            outline: none;
+            border: none;
+        }
+
+        .navstyle {
+            /* position */
+            width: 30%;
+            /* styling */
+            color: white;
+            background-color: rgba(0, 0, 0, 0.336);
+            border: 0px;
+
+            cursor: pointer;
+        }
+    

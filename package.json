@@ -1,0 +1,20 @@
+{
+  "name": "12-browser-carousel-ppphiiil",
+  "version": "1.0.0",
+  "description": "1. Create a **Carousel** of up to 6 images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FBW44-2/12-browser-carousel-ppphiiil.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FBW44-2/12-browser-carousel-ppphiiil/issues"
+  },
+  "homepage": "https://github.com/FBW44-2/12-browser-carousel-ppphiiil#readme"
+}
